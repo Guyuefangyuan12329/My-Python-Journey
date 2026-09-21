@@ -1,0 +1,5 @@
+s = input().strip()
+print(s.upper())
+
+s=input().strip()
+print(chr(ord(s)-32))#ord_ordinal给字母反数字，chr_character给数字反字母
