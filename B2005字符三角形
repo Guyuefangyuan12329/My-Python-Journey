@@ -1,0 +1,4 @@
+shu = input()
+print(f"  {shu}")
+print(f" {shu}{shu}{shu}")
+print(f"{shu}{shu}{shu}{shu}{shu}")
