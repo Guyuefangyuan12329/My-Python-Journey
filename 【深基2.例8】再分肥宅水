@@ -1,0 +1,4 @@
+t,n=map(float,input().split())
+a=t/n
+print(f"{a:.3f}")
+print(int(2*n))
