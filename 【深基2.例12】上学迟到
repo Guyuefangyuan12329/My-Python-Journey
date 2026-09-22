@@ -1,0 +1,9 @@
+s,v=map(int,input().split())
+walk_time=(s+v-1)//v
+total_time=walk_time+10
+depart_time=480-total_time
+if depart_time<0:
+    depart_time+=24*60
+hour=depart_time//60
+minute=depart_time%60
+print(f"{hour:02d}:{minute:02d}")
